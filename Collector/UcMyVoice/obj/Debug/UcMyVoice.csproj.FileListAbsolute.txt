@@ -1,0 +1,32 @@
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\bin\Debug\UcMyVoice.dll
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\bin\Debug\UcMyVoice.pdb
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcWebVoice.baml
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcWebVoice.g.cs
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcMyVoice_MarkupCompile.cache
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcMyVoice.g.resources
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcMyVoice.Properties.Resources.resources
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcMyVoice.csproj.GenerateResource.Cache
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcMyVoice.dll
+C:\Users\zgk\Documents\Visual Studio 2013\Projects\WpfApplication1\UcMyVoice\obj\Debug\UcMyVoice.pdb
+C:\Users\JPLCZX\Desktop\UcMyVoice\bin\Debug\UcMyVoice.dll
+C:\Users\JPLCZX\Desktop\UcMyVoice\bin\Debug\UcMyVoice.pdb
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcWebVoice.baml
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcWebVoice.g.cs
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcMyVoice_MarkupCompile.cache
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcMyVoice.g.resources
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcMyVoice.Properties.Resources.resources
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcMyVoice.csproj.GenerateResource.Cache
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcMyVoice.dll
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcMyVoice.pdb
+C:\Users\JPLCZX\Desktop\UcMyVoice\obj\Debug\UcMyVoice.csprojResolveAssemblyReference.cache
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\bin\Debug\UcMyVoice.dll
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\bin\Debug\UcMyVoice.pdb
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcMyVoice.csprojResolveAssemblyReference.cache
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcWebVoice.baml
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcWebVoice.g.cs
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcMyVoice_MarkupCompile.cache
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcMyVoice.g.resources
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcMyVoice.Properties.Resources.resources
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcMyVoice.csproj.GenerateResource.Cache
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcMyVoice.dll
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\UcMyVoice.pdb

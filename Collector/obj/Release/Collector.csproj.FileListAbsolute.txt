@@ -1,0 +1,5 @@
+C:\Users\zhangqi\Desktop\woker\Collector\Collector\bin\Release\Collector.dll
+C:\Users\zhangqi\Desktop\woker\Collector\Collector\bin\Release\Collector.pdb
+C:\Users\zhangqi\Desktop\woker\Collector\Collector\bin\Release\Dapper.dll
+C:\Users\zhangqi\Desktop\woker\Collector\Collector\obj\Release\Collector.dll
+C:\Users\zhangqi\Desktop\woker\Collector\Collector\obj\Release\Collector.pdb
