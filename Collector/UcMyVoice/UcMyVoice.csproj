@@ -49,12 +49,25 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="MyControl\StepBar\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UcWebVoice.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Compile Include="Converters\IsLastItemConverter.cs" />
+    <Compile Include="Converters\IsProgressedConverter.cs" />
     <Compile Include="FTP.cs" />
     <Compile Include="IFTPUser.cs" />
+    <Compile Include="MyControl\ControlEnum.cs" />
+    <Compile Include="MyControl\StepBar\Implementation\StepBar.cs" />
+    <Compile Include="MyControl\StepBar\Implementation\StepBarItem.cs" />
     <Compile Include="UcWebVoice.xaml.cs">
       <DependentUpon>UcWebVoice.xaml</DependentUpon>
     </Compile>
@@ -89,6 +102,7 @@
   <ItemGroup>
     <Resource Include="Resources\horn1.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

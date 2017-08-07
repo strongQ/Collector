@@ -114,6 +114,9 @@ namespace UcMyVoice
                    
                     fileName = await Ftp.downloadFull(remotePath, localfile);
                   
+                    FileInfo file=new FileInfo(fileName);
+                    if (file.Extension==".amr")
+                    fileName = ChangeAMR(fileName);
 
                 }
                 catch (WebException)
@@ -121,11 +124,9 @@ namespace UcMyVoice
                     return string.Empty;
                     
                 }
+
               
             }
-            FileInfo file = new FileInfo(fileName);
-            if (file.Extension == ".amr")
-                fileName = ChangeAMR(fileName);
             return fileName;
         }
 
@@ -178,6 +179,9 @@ namespace UcMyVoice
                            
                             return string.Empty;
                         }
+                        FileInfo file = new FileInfo(localfile);
+                        if (file.Extension == ".amr")
+                            localfile = ChangeAMR(localfile);
                         return localfile;
                     }
                 }
