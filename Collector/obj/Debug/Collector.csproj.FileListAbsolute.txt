@@ -16,4 +16,10 @@ C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\Dapper.dll
 C:\Users\zgk\Desktop\Collector\Collector\obj\Debug\Collector.dll
 C:\Users\zgk\Desktop\Collector\Collector\obj\Debug\Collector.pdb
 C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\NPOI.dll
+C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\NPOI.OOXML.dll
+C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\NPOI.xml
 C:\Users\zgk\Desktop\Collector\Collector\obj\Debug\Collector.csprojResolveAssemblyReference.cache

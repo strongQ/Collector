@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProcedure", "..\TestPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcMyVoice", "UcMyVoice\UcMyVoice.csproj", "{FCBA8B5A-9BF4-4598-9D43-0416673F8A75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOI.Extension", "NPOI.Extension\src\NPOI.Extension.csproj", "{5ADDD29D-B3AF-4966-B730-5E5192D0E9DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FCBA8B5A-9BF4-4598-9D43-0416673F8A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCBA8B5A-9BF4-4598-9D43-0416673F8A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCBA8B5A-9BF4-4598-9D43-0416673F8A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADDD29D-B3AF-4966-B730-5E5192D0E9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADDD29D-B3AF-4966-B730-5E5192D0E9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADDD29D-B3AF-4966-B730-5E5192D0E9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADDD29D-B3AF-4966-B730-5E5192D0E9DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
