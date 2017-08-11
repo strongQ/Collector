@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Dapper;
 using Collector.Helper;
 using Collector.Interface;
-using Dapper.Contrib.Extensions;
+
 
 namespace Collector.DataBase
 {
@@ -97,7 +97,7 @@ namespace Collector.DataBase
             }
             catch (Exception ex)
             {
-                Log.WirteLog(ex.Message, ex);
+                Log.WriteError(ex.Message, ex);
                 return -1;
             }
 
@@ -128,7 +128,7 @@ namespace Collector.DataBase
             }
             catch (Exception ex)
             {
-                Log.WirteLog(ex.Message, ex);
+                Log.WriteError(ex.Message, ex);
                 return null;
             }
         }
@@ -154,7 +154,7 @@ namespace Collector.DataBase
             }
             catch (Exception ex)
             {
-                Log.WirteLog(ex.Message, ex);
+                Log.WriteError(ex.Message, ex);
                 return -1;
             }
         }
@@ -178,7 +178,7 @@ namespace Collector.DataBase
             }
             catch (Exception ex)
             {
-                Log.WirteLog(ex.Message, ex);
+                Log.WriteError(ex.Message, ex);
                 return null;
             }
         }
@@ -217,118 +217,7 @@ namespace Collector.DataBase
         #endregion
 
 
-        #region 查询系
-        /// <summary>
-        /// 获取Model-Key为int类型
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="id"></param>
-        /// <param name="transaction"></param>
-        /// <param name="commandTimeout"></param>
-        /// <returns></returns>
-        public async Task<T> GetAsync<T>(int id, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
-        {
-            using (var conn = GetConnection())
-            {
-                return await conn.GetAsync<T>(id, transaction, commandTimeout);
-            }
-        }
-        /// <summary>
-        /// 获取Model-Key为long类型
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="id"></param>
-        /// <param name="transaction"></param>
-        /// <param name="commandTimeout"></param>
-        /// <returns></returns>
-        public async Task<T> GetAsync<T>(long id, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
-        {
-            using (var conn = GetConnection())
-            {
-                return await conn.GetAsync<T>(id, transaction, commandTimeout);
-            }
-        }
-        /// <summary>
-        /// 获取Model-Key为Guid类型
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="id"></param>
-        /// <param name="transaction"></param>
-        /// <param name="commandTimeout"></param>
-        /// <returns></returns>
-        public async Task<T> GetAsync<T>(System.Guid id, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
-        {
-            using (var conn = GetConnection())
-            {
-                return await conn.GetAsync<T>(id, transaction, commandTimeout);
-            }
-        }
-        /// <summary>
-        /// 获取Model-Key为string类型
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="id"></param>
-        /// <param name="transaction"></param>
-        /// <param name="commandTimeout"></param>
-        /// <returns></returns>
-        public async Task<T> GetAsync<T>(string id, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
-        {
-            using (var conn = GetConnection())
-            {
-                return await conn.GetAsync<T>(id, transaction, commandTimeout);
-            }
-        }
-        /// <summary>
-        /// 获取Model集合（没有Where条件）
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public async Task<IEnumerable<T>> GetAllAsync<T>() where T : class, new()
-        {
-            using (var conn = GetConnection())
-            {
-                return await conn.GetAllAsync<T>();
-            }
-        }
-        #endregion
-
-        #region 增删改
-        /// <summary>
-        /// 插入一个Model
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="model"></param>
-        /// <param name="transaction"></param>
-        /// <param name="commandTimeout"></param>
-        /// <param name="sqlAdapter"></param>
-        /// <returns></returns>
-        public async Task<int> InsertAsync<T>(T model, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
-        {
-            using (var conn = GetConnection())
-            {
-                return await conn.InsertAsync<T>(model, transaction, commandTimeout);
-            }
-        }
-
-        /// <summary>
-        /// 更新一个Model
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="connection"></param>
-        /// <param name="entityToUpdate"></param>
-        /// <param name="transaction"></param>
-        /// <param name="commandTimeout"></param>
-        /// <returns></returns>
-        public async Task<T> UpdateAsync<T>(T model, IDbTransaction transaction = null, int? commandTimeout = null) where T : class, new()
-        {
-            using (var conn = GetConnection())
-            {
-                bool b = await conn.UpdateAsync<T>(model, transaction, commandTimeout);
-                if (b) { return model; }
-                else { return null; }
-            }
-        }
-        #endregion
+      
 
       
         //#region 函数

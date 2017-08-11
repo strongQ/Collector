@@ -36,10 +36,8 @@
   <ItemGroup>
     <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ReportBasic\ReportBasic\packages\Dapper.1.50.2\lib\net40\Dapper.dll</HintPath>
-    </Reference>
-    <Reference Include="Dapper.Contrib, Version=1.50.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Dapper.Contrib.1.50.0\lib\net45\Dapper.Contrib.dll</HintPath>
+      <HintPath>..\..\文档\项目\Quartz调度\packages\Dapper.1.50.2\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
@@ -71,7 +69,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataBase\DataSourceCreator.cs" />
-    <Compile Include="DataBase\DbAsync.cs" />
     <Compile Include="DataBase\DBHelpMe.cs" />
     <Compile Include="DataBase\OracleDynamicParameters.cs" />
     <Compile Include="Helper\FTP.cs" />

@@ -29,3 +29,11 @@ C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\Dapper.Contrib.dll
 C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\Collector.pdb
 C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\Dapper.xml
 C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\NPOI.dll
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\NPOI.Extension.dll
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\NPOI.OOXML.dll
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\NPOI.xml
+C:\Users\zgk\Desktop\Collector\TestProcedure\bin\Debug\NPOI.Extension.pdb

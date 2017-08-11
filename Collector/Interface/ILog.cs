@@ -8,6 +8,6 @@ namespace Collector.Interface
 {
     public interface ILog
     {
-        void WirteLog(string content, Exception e);
+        void WriteError(string content, Exception e);
     }
 }

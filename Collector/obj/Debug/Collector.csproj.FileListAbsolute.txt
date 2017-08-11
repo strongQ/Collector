@@ -11,7 +11,6 @@ C:\Users\zhangqi\Desktop\woker\Collector\Collector\obj\Debug\Collector.pdb
 C:\Users\zhangqi\Desktop\woker\Collector\Collector\bin\Debug\Dapper.Contrib.dll
 C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\Collector.dll
 C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\Collector.pdb
-C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\Dapper.Contrib.dll
 C:\Users\zgk\Desktop\Collector\Collector\bin\Debug\Dapper.dll
 C:\Users\zgk\Desktop\Collector\Collector\obj\Debug\Collector.dll
 C:\Users\zgk\Desktop\Collector\Collector\obj\Debug\Collector.pdb
