@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Expression.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Refrence\Microsoft.Expression.Drawing.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -49,6 +53,42 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="MyControl\BusyIndicator\Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="MyControl\Button\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyControl\Loading\Themes\Apple.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyControl\Loading\Themes\Cogs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyControl\Loading\Themes\DoubleArc.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyControl\Loading\Themes\DoubleRound.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyControl\Loading\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyControl\Loading\Themes\Normal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MyControl\Loading\Themes\SingleRound.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MyControl\StepBar\Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -56,6 +96,22 @@
     <Page Include="Themes\Generic.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\MyButton\FlatButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\MyButton\PathButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\MyButton\PathIconButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\MyButton\PathTextButtonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="UcWebVoice.xaml">
       <SubType>Designer</SubType>
@@ -65,7 +121,14 @@
     <Compile Include="Converters\IsProgressedConverter.cs" />
     <Compile Include="FTP.cs" />
     <Compile Include="IFTPUser.cs" />
+    <Compile Include="MyControl\BusyIndicator\Implementation\BusyIndicator.cs" />
+    <Compile Include="MyControl\BusyIndicator\Implementation\BusyIndicatorAdorner.cs" />
+    <Compile Include="MyControl\Button\Implementation\FlatButton.cs" />
+    <Compile Include="MyControl\Button\Implementation\PathButton.cs" />
+    <Compile Include="MyControl\Button\Implementation\PathIconButton.cs" />
+    <Compile Include="MyControl\Button\Implementation\PathTextButton.cs" />
     <Compile Include="MyControl\ControlEnum.cs" />
+    <Compile Include="MyControl\Loading\Implementation\Loading.cs" />
     <Compile Include="MyControl\StepBar\Implementation\StepBar.cs" />
     <Compile Include="MyControl\StepBar\Implementation\StepBarItem.cs" />
     <Compile Include="UcWebVoice.xaml.cs">
@@ -102,7 +165,9 @@
   <ItemGroup>
     <Resource Include="Resources\horn1.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Refrence\Microsoft.Expression.Drawing.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

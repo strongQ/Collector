@@ -2,6 +2,12 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/UcMyVoice;component/MyControl/StepBar/Themes/Generic.xaml" />
+        <ResourceDictionary Source="/UcMyVoice;component/MyControl/BusyIndicator/Themes/Generic.xaml" />
+        <ResourceDictionary Source="/UcMyVoice;component/MyControl/Loading/Themes/Generic.xaml" />
+        <ResourceDictionary Source="/UcMyVoice;component/Themes/MyButton/FlatButtonStyle.xaml" />
+        <ResourceDictionary Source="/UcMyVoice;component/Themes/MyButton/PathButtonStyle.xaml" />
+        <ResourceDictionary Source="/UcMyVoice;component/Themes/MyButton/PathIconButtonStyle.xaml" />
+        <ResourceDictionary Source="/UcMyVoice;component/Themes/MyButton/PathTextButtonStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
        
