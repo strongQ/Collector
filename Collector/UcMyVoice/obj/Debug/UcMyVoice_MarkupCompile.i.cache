@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\zgk\Desktop\勤务远程库\UcMyVoice\obj\Debug\
+C:\Users\zgk\Desktop\Collector\Collector\UcMyVoice\obj\Debug\
 UcMyVoice
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 16347309572
 11809156106
 221026673789
-15-1718892438
+15-594886782
 MyControl\BusyIndicator\Themes\Generic.xaml;MyControl\Button\Themes\Generic.xaml;MyControl\Loading\Themes\Apple.xaml;MyControl\Loading\Themes\Cogs.xaml;MyControl\Loading\Themes\DoubleArc.xaml;MyControl\Loading\Themes\DoubleRound.xaml;MyControl\Loading\Themes\Generic.xaml;MyControl\Loading\Themes\Normal.xaml;MyControl\Loading\Themes\SingleRound.xaml;MyControl\StepBar\Themes\Generic.xaml;Themes\Generic.xaml;Themes\MyButton\FlatButtonStyle.xaml;Themes\MyButton\PathButtonStyle.xaml;Themes\MyButton\PathIconButtonStyle.xaml;Themes\MyButton\PathTextButtonStyle.xaml;UcWebVoice.xaml;
 
 True
